@@ -1,0 +1,259 @@
+:root{
+    --Very-Dark-Blue: hsl(230, 29%, 20%);
+     --Dark-Grayish-blue: hsl(230, 11%, 40%);
+    --Grayish-Blue: hsl(231, 7%, 65%);
+    --Light-Grayish-Blue: hsl(207, 33%, 95%);
+     --font-family: 'Barlow', sans-serif;
+     --font-family: 'Manrope', sans-serif;
+}
+
+body{
+ overflow: hidden;
+}
+
+main{
+    height: 100vh;
+}
+
+nav{
+ height: 20px;
+ display: flex;
+ justify-content: end;
+ flex-direction: row;
+ margin-top: -50px;
+ font-family: 'Manrope', sans-serif;
+ text-transform: uppercase;
+}
+
+#logo{
+position: relative;
+top: 40px;
+left: 150px;
+display: flex;
+height: 40px;
+
+}
+
+a{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    padding-right: 50px;
+    padding-top: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--Very-Dark-Blue);
+
+}
+a:hover{
+   color:rgb(255, 109, 90)
+}
+
+.login{
+    padding-left: 50px; 
+     padding-right: 290px;
+     opacity: 60%;
+
+}
+
+#illustration{
+    position: relative;
+    left: 1050px;
+    top: -150px;
+    /* max-width: 375px; */
+}
+
+.design{
+    height: 400px;
+    background-color:var(--Light-Grayish-Blue);
+    width: 50%;
+    position: relative;
+    left: 1000px;
+    border-radius: 0 0 0 50px;
+    /* min-width: 375px; */
+}
+
+span{
+    font-size: 15px;
+    position: relative;
+    text-transform: uppercase;
+    top: -580px;
+    left: 150px;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    background: black;
+    width: 40px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 50px;
+    max-width: 375px;
+}
+
+.paragrahp1{
+    font-size: 15px;
+    position: relative;
+    text-transform: uppercase;
+    top: -620px;
+    left: 220px;
+    letter-spacing: 5px;
+    font-family: 'Barlow', sans-serif;
+    padding: 5px 15px 5px 15px;
+    opacity: 40%;
+    max-width: 375px;
+}
+
+
+
+h1{
+    position: relative;
+    top: -650px;
+    width: 700px;
+    font-size: 60px;
+    text-transform: uppercase;
+    left: 150px;
+    font-family: 'Barlow', sans-serif;
+    color: var(--Very-Dark-Blue);
+    letter-spacing: -1;
+    font-weight: 550;
+    line-height: 60px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    /* min-width: 375px; */
+}
+
+p{
+    position: relative;
+    top: -650px;
+    left: 150px;
+    font-size: 25px;
+    width: 370px;
+    opacity: 60%;
+    font-family: 'Barlow', sans-serif;
+    max-width: 375px;
+}
+
+.paragrahp2{
+    position: relative;
+    left: 400px;
+    top: -630px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Manrope', sans-serif;
+    opacity: 30%;
+    font-size: 15px;
+    word-spacing: 5px;
+    font-weight: 400px;
+    max-width: 375px;
+}
+
+button{
+    width: 200px;
+    height: 55px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    background: rgb(255, 109, 90);
+    border-color: rgb(255, 109, 90);
+    margin-right: 20px;
+    left: 160px;
+    top: -580px;
+    position: relative;
+    cursor: pointer;
+    max-width: 375px;
+}
+
+@media (max-width: 375px){
+     #illustration{
+        position: relative;
+        left: -100px;
+        height: 1000px;
+        width: 200px; 
+
+    } 
+
+    #illustration  img{
+        height: 200px;
+        position: relative;
+        left: 120px;
+        top: -100px;
+    }
+
+    main{
+        overflow: hidden;
+    }
+
+    a{
+        position: relative;
+      left: -900px;  
+    }
+
+    #logo{
+        position: relative;
+        left: 40px;
+        height: 30px;
+    }
+    
+    .design{    
+        position: relative;
+        left: 190px;
+    }
+
+
+    button{
+        position: relative;
+        top: -105%;
+        left: 10%;
+        height: 50px;
+        width: 150px;
+        font-size: 12px;
+    }
+
+    span{
+        position: relative;
+        top: -107%;
+        left: 10%;
+    }
+
+    .paragrahp1{
+        position: relative;
+        top: -111.5%;
+        left: 30%;
+        font-size: 14px;
+        letter-spacing: 3px;
+
+    }
+
+    h1{
+        position: relative;
+        top: -110%;
+        left: 10%;
+        font-size: 30px;
+        width: 350px;
+        line-height: 30px;
+        word-spacing: 2px;
+    }
+    .paragrahp2{
+        position: relative;
+        top: -110%;
+        left: 55%;
+        font-size: 9px;
+    }
+    
+    p{
+        position: relative;
+        top: -110%;
+        left: 10%;
+        font-size: 20px;
+        width: 300px;
+    }
+
+
+
+}
+   
+  
+    
